@@ -1,0 +1,35 @@
+.header {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header__button__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button__box__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  color: #9285B0;
+  transform: rotate(5deg);
+}
+.button__box__arrow{
+  margin-left: 30px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.button__icon {
+  width: 24px;
+  height: 24px;
+}
+.header__link {
+  color: var(--natural-black-100, #302a3e);
+}

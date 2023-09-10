@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Comfortaa";
+  color: var(--natural-black-60, rgba(48, 42, 62, 0.60));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+body {
+  font-family: "Comfortaa";
+  color: var(--natural-black-100, #302a3e);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  display: flex;
+  width: 1920px;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    #fff8f8 14.58%,
+    #f9f8fb 46.73%,
+    #f2edff 90.89%
+  );
+}
+input {
+  border: none;
+  outline: none;
+  color: var(--natural-black-100, #302A3E);
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 128.571% */
+}
+input::placeholder{
+  border: none;
+  outline: none;
+  color: var(--natural-black-100, #302A3E);
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 128.571% */
+}

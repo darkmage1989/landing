@@ -1,0 +1,40 @@
+.button {
+  border-radius: 160px;
+  border: 2px solid var(--natural-black-100, #302a3e);
+  padding: 16px 24px;
+  color: var(--natural-black-100, #302a3e);
+  font-family: Comfortaa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  background-color: transparent;
+}
+.button__black {
+  margin-top: 8px;
+  background: var(--natural-black-100, #302a3e);
+  border-radius: 160px;
+  border: 2px solid var(--natural-black-100, #302a3e);
+  padding: 16px 24px;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  color: #ffffff;
+}
+.button__blue {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  border-radius: 160px;
+  background: var(--other-link-100, #2188f6);
+  border: 2px solid transparent;
+  padding: 16px 24px;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  color: #ffffff;
+}

@@ -1,0 +1,37 @@
+.registration__Box {
+  display: flex;
+  width: 340px;
+  padding: 24px;
+  flex-direction: column;
+  gap: 24px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  border: 2px solid var(--natural-black-100, #302a3e);
+  box-sizing: border-box;
+}
+.registration__title {
+  display: block;
+  color: var(--natural-black-100, #302a3e);
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+}
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.registration__text {
+  color: var(--natural-black-60, rgba(48, 42, 62, 0.6));
+  font-family: Nunito;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.2px;
+  text-decoration-line: underline;
+  align-self: stretch;
+}
+
