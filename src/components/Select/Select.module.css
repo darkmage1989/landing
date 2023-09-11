@@ -1,0 +1,21 @@
+.select {
+  display: flex;
+  padding: 15px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 16px;
+  border: 1px solid var(--natural-1100, #c1c0c6);
+  background: url("../../../public/fonts/arrow.svg") no-repeat;
+  background-color: var(--natural-white-100, #fff);
+  width: 206px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 128.571% */
+  appearance: none;
+
+  background-position-x: 170px;
+  background-position-y: 15px;
+}

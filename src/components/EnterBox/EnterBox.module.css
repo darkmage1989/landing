@@ -12,6 +12,7 @@
 .head__button__box {
   display: flex;
   gap: 32px;
+  align-items: flex-end;
 }
 .head__enter__box {
   display: flex;

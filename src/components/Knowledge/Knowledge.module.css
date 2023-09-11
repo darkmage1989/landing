@@ -1,0 +1,27 @@
+.knowledge {
+  margin-right: 21px;
+  margin-bottom: 13px;
+  display: inline-flex;
+  transform: rotate(0.215deg);
+  padding: 17.609px 25.613px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 180.891px;
+  border: 2.401px solid transparent;
+  background: #fff;
+  box-shadow: 0px 1.6008px 8.80441px -3.2016px rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+.knowledge__text {
+  color: var(--natural-black-100, #302a3e);
+  font-family: Comfortaa;
+  font-size: 19.21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.21px; /* 100% */
+}
+.knowledge__icon {
+position: absolute;
+right: 0px;
+top: 0px;
+}

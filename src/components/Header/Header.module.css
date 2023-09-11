@@ -1,24 +1,27 @@
 .header {
   margin-top: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 96px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-left: calc(50% - 700px);
+  padding-right: calc(50% - 700px);
 }
 .header__button__box {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: -100px;
 }
 .button__box__text {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 171.429% */
-  color: #9285B0;
+  color: #9285b0;
   transform: rotate(5deg);
 }
-.button__box__arrow{
+.button__box__arrow {
   margin-left: 30px;
 }
 .header__nav {

@@ -1,12 +1,11 @@
 import Button from "../Button/Button";
+import Logo from "../Logo/Logo";
 import style from "./Header.module.css";
 function Header() {
   return (
     <header className={style.header}>
       <nav className={style.header__nav}>
-        <a href="#">
-          <img src="fonts/logo.svg" alt="logo.svg" />
-        </a>
+        <Logo/>
         <a className={style.header__link} href="#">
           Предметы
         </a>

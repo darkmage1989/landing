@@ -1,0 +1,59 @@
+.line__name__box {
+  display: flex;
+  gap: 8px;
+}
+.line__box {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 8px;
+  margin-left: 8px;
+  padding: 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: var(--natural-3100, #f9f8fb);
+}
+.button {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--natural-1100, #c1c0c6);
+  background: var(--natural-white-100, #fff);
+}
+.line__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+}
+.numbers__box {
+  display: flex;
+  padding: 15px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 16px;
+  border: 1px solid var(--natural-1100, #c1c0c6);
+  background: var(--natural-white-100, #fff);
+}
+.numbers{
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 128.571% */
+}
+.numbers::after {
+  content: '/16';
+  color: var(--natural-1100, #C1C0C6);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+}

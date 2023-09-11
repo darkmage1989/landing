@@ -19,16 +19,13 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 150% */
-  display: flex;
-  width: 1920px;
-  flex-direction: column;
-  align-items: center;
   background: linear-gradient(
     90deg,
     #fff8f8 14.58%,
     #f9f8fb 46.73%,
     #f2edff 90.89%
   );
+ 
 }
 input {
   border: none;

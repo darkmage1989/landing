@@ -1,4 +1,6 @@
 .button {
+  display: flex;
+  gap: 8px;
   border-radius: 160px;
   border: 2px solid var(--natural-black-100, #302a3e);
   padding: 16px 24px;
@@ -11,6 +13,7 @@
   background-color: transparent;
 }
 .button__black {
+  display: flex;
   margin-top: 8px;
   background: var(--natural-black-100, #302a3e);
   border-radius: 160px;

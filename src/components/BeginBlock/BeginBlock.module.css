@@ -1,0 +1,31 @@
+.begin__block {
+  display: flex;
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+  gap: 64px;
+}
+.begin__text__box{
+    width: 525px;
+}
+.begin__title {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 114.286% */
+  margin-bottom: 32px;
+}
+.begin__text {
+  color: var(--natural-black-80, rgba(48, 42, 62, 0.8));
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.36px;
+}
+.buttons__box {
+  margin-top: 48px;
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}

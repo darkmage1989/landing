@@ -1,0 +1,111 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-left: calc(50% - 700px);
+  margin-right: calc(50% - 700px);
+  border-radius: 64px 64px 0px 0px;
+  background: var(--natural-white-100, #fff);
+  padding: 48px;
+  
+}
+.footer_nav__bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.footer__social__box {
+  display: flex;
+  gap: 16px;
+}
+.license {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+.license__img {
+  height: 61px;
+}
+.license__box {
+  display: flex;
+  gap: 56px;
+  margin-top: 56px;
+  margin-bottom: 99px;
+}
+.footer__info {
+  display: flex;
+  gap: 95px;
+}
+.footer__subtitle {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+}
+.contact__box {
+  display: flex;
+  gap: 32px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.contact__link {
+  color: var(--other-link-100, #2188f6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: 0.32px;
+}
+.link__box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer_address {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
+.license__text {
+  color: var(--natural-black-60, rgba(48, 42, 62, 0.6));
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px; /* 140% */
+}
+.requisites__box {
+  display: flex;
+  gap: 16px;
+}
+.requisites__text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
+.footer__nav__link__box {
+  margin-top: 16px;
+  margin-bottom: 41px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer__docs__link {
+  color: var(--other-link-100, #2188f6);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 128.571% */
+  text-decoration-line: underline;
+}
+.footer__docs__box {
+  display: flex;
+  column-gap: 56px;
+  row-gap: 34px;
+  flex-wrap: wrap;
+}
+.project__link {
+  display: block;
+  margin-top: 16px;
+}

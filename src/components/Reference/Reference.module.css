@@ -1,0 +1,113 @@
+.reference__block {
+  display: flex;
+  padding: 14.182px;
+  align-items: flex-start;
+  gap: 10.637px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+.reference__head {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+
+}
+.reference__nav {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.reference__social {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.reference__comments {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.reference__comments__number{
+  color: var(--natural-black-100, #302A3E);
+font-family: Comfortaa;
+font-size: 6.205px;
+font-style: normal;
+font-weight: 700;
+line-height: 10.637px; /* 171.429% */
+}
+.reference__data__box {
+  display: flex;
+  padding: 21.273px 21.273px 31.91px 21.273px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7.091px;
+  align-self: stretch;
+}
+.reference__theme__box {
+  display: flex;
+  color: var(--natural-black-60, rgba(48, 42, 62, 0.6));
+  font-family: Comfortaa;
+  font-size: 6.205px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 7.978px; /* 128.571% */
+  gap: 7px;
+}
+.reference__title {
+  align-self: stretch;
+  color: var(--natural-black-100, #302a3e);
+  font-family: Comfortaa;
+  font-size: 14.182px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.501px; /* 137.5% */
+}
+.reference__subTitle {
+  color: var(--natural-black-100, #302a3e);
+  font-family: Nunito;
+  font-size: 9.75px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12.409px; /* 127.273% */
+  letter-spacing: 0.195px;
+}
+.reference__text {
+  color: var(--natural-black-100, #302a3e);
+  font-family: Nunito;
+  font-size: 7.091px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 9.75px;
+  letter-spacing: 0.142px;
+}
+.reference__img {
+  width: 211.404px;
+  height: 146.697px;
+}
+.reference__learn__box {
+  font-family: Comfortaa;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px; /* 140% */
+  display: flex;
+  gap: 3px;
+}
+.reference__learn__tag {
+  display: flex;
+  padding: 1.773px 3.546px;
+  justify-content: center;
+  align-items: center;
+  gap: 3.546px;
+  border-radius: 7.091px;
+  background: rgba(245, 177, 178, 0.6);
+}
+.reference__learn {
+  display: flex;
+  padding: 1.773px 3.546px;
+  justify-content: center;
+  align-items: center;
+  gap: 3.546px;
+  border-radius: 7.091px;
+  background: var(--natural-2100, #efedf2);
+}

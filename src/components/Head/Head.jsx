@@ -7,7 +7,7 @@ function Head() {
     <section className={style.head__box}>
       <EnterBox />
       <RegistrationBox />
-      <img src="./fonts/image__enter.svg" alt="image__enter.svg" />
+      <img className={style.head__img} src="./fonts/image__enter.svg" alt="image__enter.svg" />
     </section>
   );
 }
