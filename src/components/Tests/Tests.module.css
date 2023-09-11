@@ -27,7 +27,7 @@
 }
 .tests__text {
   align-self: stretch;
-  color: var(--natural-black-60, rgba(48, 42, 62, 0.6));
+  color: rgba(48, 42, 62, 0.6);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -42,7 +42,7 @@
   gap: 8px;
   border-radius: 160px;
   border: none;
-  background: var(--object-family-bio-bio-60, #e1ecc8);
+  background:  #e1ecc8;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;

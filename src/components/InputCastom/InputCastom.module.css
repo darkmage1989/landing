@@ -4,8 +4,8 @@
   flex-direction: column;
   align-self: stretch;
   border-radius: 16px;
-  border: 1px solid var(--natural-black-100, #302a3e);
-  background: var(--natural-white-100, #fff);
+  border: 1px solid #302a3e;
+  background:  #fff;
   width: 634px;
   box-sizing: border-box;
 }
@@ -15,13 +15,13 @@
   flex-direction: column;
   align-self: stretch;
   border-radius: 16px;
-  border: 1px solid var(--natural-1100, #c1c0c6);
-  background: var(--natural-white-100, #fff);
+  border: 1px solid  #c1c0c6;
+  background:  #fff;
   width: 634px;
   box-sizing: border-box;
 }
 .placeholder {
-  color: var(--natural-black-60, rgba(48, 42, 62, 0.6));
+  color: rgba(48, 42, 62, 0.6);
   font-family: Comfortaa;
   font-size: 10px;
   font-style: normal;

@@ -34,5 +34,5 @@
   height: 24px;
 }
 .header__link {
-  color: var(--natural-black-100, #302a3e);
+  color: #302a3e;
 }

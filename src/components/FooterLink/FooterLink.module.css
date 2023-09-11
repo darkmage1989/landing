@@ -4,7 +4,7 @@
   align-items: flex-start;
   gap: 10px;
   border-radius: 160px;
-  border: 2px solid var(--natural-black-100, #302a3e);
+  border: 2px solid #302a3e;
   width: 56px;
   height: 56px;
   box-sizing: border-box;

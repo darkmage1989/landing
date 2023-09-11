@@ -39,8 +39,8 @@
   gap: 16px;
   align-self: stretch;
   border-radius: 16px;
-  border: 1px solid var(--natural-1100, #c1c0c6);
-  background: var(--natural-white-100, #fff);
+  border: 1px solid  #c1c0c6;
+  background: #fff;
 }
 .numbers{
 text-align: center;
@@ -51,7 +51,7 @@ line-height: 18px; /* 128.571% */
 }
 .numbers::after {
   content: '/16';
-  color: var(--natural-1100, #C1C0C6);
+  color:  #C1C0C6;
 font-size: 14px;
 font-style: normal;
 font-weight: 700;

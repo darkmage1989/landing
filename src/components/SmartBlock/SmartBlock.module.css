@@ -6,7 +6,7 @@
   width: 528px;
 }
 .smart__title{
-  color: var(--natural-black-100, #302A3E);
+  color: #302A3E;
   font-family: Comfortaa;
   font-size: 32px;
   font-style: normal;
@@ -15,7 +15,7 @@
   margin-bottom: 24px
 }
 .smart__text{
-  color: var(--natural-black-80, rgba(48, 42, 62, 0.80));
+  color: rgba(48, 42, 62, 0.80);
   font-family: Nunito;
   font-size: 16px;
   font-style: normal;

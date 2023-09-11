@@ -4,7 +4,7 @@
   margin-left: calc(50% - 700px);
   margin-right: calc(50% - 700px);
   border-radius: 64px 64px 0px 0px;
-  background: var(--natural-white-100, #fff);
+  background: #fff;
   padding: 48px;
   
 }
@@ -49,7 +49,7 @@
   margin-bottom: 16px;
 }
 .contact__link {
-  color: var(--other-link-100, #2188f6);
+  color: #2188f6;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -68,7 +68,7 @@
   line-height: 18px; /* 128.571% */
 }
 .license__text {
-  color: var(--natural-black-60, rgba(48, 42, 62, 0.6));
+  color: rgba(48, 42, 62, 0.6);
   font-size: 10px;
   font-style: normal;
   font-weight: 700;
@@ -92,7 +92,7 @@
   gap: 8px;
 }
 .footer__docs__link {
-  color: var(--other-link-100, #2188f6);
+  color: #2188f6;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;

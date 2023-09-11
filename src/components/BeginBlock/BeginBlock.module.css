@@ -15,7 +15,7 @@
   margin-bottom: 32px;
 }
 .begin__text {
-  color: var(--natural-black-80, rgba(48, 42, 62, 0.8));
+  color: rgba(48, 42, 62, 0.8);
   font-family: Nunito;
   font-size: 18px;
   font-style: normal;

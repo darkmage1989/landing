@@ -1,6 +1,8 @@
+
 import Knowledge from "../Knowledge/Knowledge";
 import style from "./KnowledgeBase.module.css";
 function KnowledgeBase() {
+ 
   return (
     <section className={style.knowledge__base}>
       <article className={style.knowledge__box}>

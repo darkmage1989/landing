@@ -13,8 +13,7 @@
   position: relative;
 }
 .knowledge__text {
-  color: var(--natural-black-100, #302a3e);
-  font-family: Comfortaa;
+  color: #302a3e;
   font-size: 19.21px;
   font-style: normal;
   font-weight: 700;

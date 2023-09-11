@@ -6,13 +6,12 @@
   gap: 24px;
   flex-shrink: 0;
   border-radius: 32px;
-  border: 2px solid var(--natural-black-100, #302a3e);
+  border: 2px solid #302a3e;
   box-sizing: border-box;
 }
 .registration__title {
   display: block;
-  color: var(--natural-black-100, #302a3e);
-  font-family: Comfortaa;
+  color: #302a3e;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -24,7 +23,7 @@
   gap: 8px;
 }
 .registration__text {
-  color: var(--natural-black-60, rgba(48, 42, 62, 0.6));
+  color: rgba(48, 42, 62, 0.6);
   font-family: Nunito;
   font-size: 10px;
   font-style: normal;

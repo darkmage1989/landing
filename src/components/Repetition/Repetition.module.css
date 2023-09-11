@@ -25,7 +25,7 @@
   left: 70px;
   padding: 12px 16px;
   border-radius: 150px;
-  background: var(--natural-white-100, #fff);
+  background: #fff;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -39,7 +39,7 @@
   position: absolute;
   padding: 12px 16px;
   border-radius: 150px;
-  background: var(--natural-white-100, #fff);
+  background: #fff;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;

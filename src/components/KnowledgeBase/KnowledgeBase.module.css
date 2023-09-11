@@ -22,7 +22,7 @@
   position: relative;
 }
 .knowledge__text__box__title {
-  color: var(--natural-black-100, #302a3e);
+  color: #302a3e;
   font-family: Comfortaa;
   font-size: 32px;
   font-style: normal;
@@ -30,7 +30,7 @@
   line-height: 48px; /* 150% */
 }
 .knowledge__text__box__middle {
-  color: var(--natural-black-80, rgba(48, 42, 62, 0.8));
+  color: rgba(48, 42, 62, 0.8);
   font-family: Nunito;
   font-size: 16px;
   font-style: normal;
@@ -45,7 +45,6 @@
 }
 .knowledge__text__box__bottom {
   color: #302a3e;
-  font-family: Comfortaa;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;

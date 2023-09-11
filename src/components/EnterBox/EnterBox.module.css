@@ -1,5 +1,5 @@
 .head__enter__title {
-  color: var(--natural-black-100, #302a3e);
+  color: #302a3e;
   font-family: Comfortaa;
   font-size: 56px;
   font-style: normal;
@@ -28,7 +28,7 @@
   margin-right: 72px;
 }
 .head__enter__text{
-  color: var(--natural-black-80, rgba(48, 42, 62, 0.80));
+  color: rgba(48, 42, 62, 0.80);
 font-family: Nunito;
 font-size: 18px;
 font-style: normal;
@@ -54,7 +54,7 @@ align-self: stretch;
   line-height: 22px; /* 100% */
   text-align: end;
   border-radius: 150px;
-  background: var(--natural-white-100, #fff);
+  background: #fff;
   padding: 12px 16px;
   gap: 10px;
 }
