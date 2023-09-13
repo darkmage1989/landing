@@ -8,8 +8,3 @@
   padding-left: calc(50% - 700px);
   padding-right: calc(50% - 700px);
 }
-.head__img {
-  width: 380px;
-  height: 372px;
-  flex-shrink: 0;
-}

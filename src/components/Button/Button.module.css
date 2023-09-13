@@ -1,8 +1,9 @@
 .button {
   display: flex;
+  justify-content: space-evenly;
   gap: 8px;
   border-radius: 160px;
-  border: 2px solid  #302a3e;
+  border: 2px solid #302a3e;
   padding: 16px 24px;
   color: #302a3e;
   font-family: Comfortaa;
@@ -12,33 +13,12 @@
   line-height: 24px; /* 150% */
   background-color: transparent;
 }
-.button__black {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 8px;
-  background:  #302a3e;
-  border-radius: 160px;
-  border: 2px solid  #302a3e;
-  padding: 16px 24px;
-  font-family: Comfortaa;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px; /* 171.429% */
-  color: #ffffff;
-}
-.button__blue {
-  display: flex;
-  gap: 8px;
-  margin-top: 8px;
-  border-radius: 160px;
+.blue {
   background: #2188f6;
-  border: 2px solid transparent;
-  padding: 16px 24px;
-  font-family: Comfortaa;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px; /* 171.429% */
+  color: #ffffff;
+  border: 2px solid #2188f6;
+}
+.black {
+  background: #302a3e;
   color: #ffffff;
 }

@@ -21,9 +21,6 @@
   color: #9285b0;
   transform: rotate(5deg);
 }
-.button__box__arrow {
-  margin-left: 30px;
-}
 .header__nav {
   display: flex;
   align-items: center;

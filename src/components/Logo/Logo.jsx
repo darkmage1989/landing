@@ -1,7 +1,11 @@
+import LogoSvg from "../IconsSvg/LogoSvg";
+
 function Logo() {
-    return ( <><a href="#">
-    <img src="fonts/logo.svg" alt="logo.svg" />
-  </a></> );
+  return (
+    <a href="#/">
+      <LogoSvg />
+    </a>
+  );
 }
 
 export default Logo;

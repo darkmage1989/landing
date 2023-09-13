@@ -11,8 +11,11 @@
 .knowledge__box {
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
-  height: 335.283px;
+  width: 576.642px;
+  height: 359.5px;
+  flex-shrink: 0;
+  border-radius: 27.931px;
+  background-color: #fff;
 }
 .knowledge__text__box {
   width: 530px;
@@ -50,4 +53,3 @@
   font-weight: 700;
   line-height: 24px; /* 120% */
 }
-

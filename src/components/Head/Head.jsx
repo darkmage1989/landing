@@ -1,4 +1,5 @@
 import EnterBox from "../EnterBox/EnterBox";
+import YouLIkeitSvg from "../IconsSvg/YouLIkeitSvg";
 import RegistrationBox from "../RegistrationBox/RegistrationBox";
 import style from "./Head.module.css";
 
@@ -7,7 +8,7 @@ function Head() {
     <section className={style.head__box}>
       <EnterBox />
       <RegistrationBox />
-      <img className={style.head__img} src="./fonts/image__enter.svg" alt="image__enter.svg" />
+      <YouLIkeitSvg/>
     </section>
   );
 }

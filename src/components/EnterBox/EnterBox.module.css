@@ -24,9 +24,6 @@
   justify-content: space-between;
   position: relative;
 }
-.head__enter__icon{
-  margin-right: 72px;
-}
 .head__enter__text{
   color: rgba(48, 42, 62, 0.80);
 font-family: Nunito;
@@ -37,14 +34,10 @@ line-height: 24px; /* 133.333% */
 letter-spacing: 0.36px;
 align-self: stretch;
 }
-.head__enter__cross{
-  align-self: flex-end;
- margin-right: 48px;
-}
 .text__rotate {
   position: absolute;
   right: 70px;
-  bottom: -22px;
+  bottom: -10px;
   transform: rotate(10deg);
   color: #000;
   font-family: Comfortaa;
@@ -57,4 +50,8 @@ align-self: stretch;
   background: #fff;
   padding: 12px 16px;
   gap: 10px;
+}
+.head__enter__cross__box {
+  position: relative;
+  margin-bottom: 48px
 }

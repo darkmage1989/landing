@@ -9,10 +9,10 @@ function RegistrationBox() {
         Регистрируйся, чтобы начать обучение
       </h3>
       <form className={style.registration__form} action="#">
-        <Input placeholder={'Телефон или Email'}/>
+        <Input placeholder={'Email'}/>
         <InputPassword placeholder={'Пароль'}/> 
-        <InputPassword placeholder={'Подтверждение пароля'}/>
-        <Button.Black button text={"Зарегистрироваться"} />
+        <InputPassword placeholder={'Пароль еще раз'}/>
+        <Button mod={'black'} button text={"Зарегистрироваться"} />
       </form>
       <span className={style.registration__text}>
         Нажимая «Зарегистрироваться», вы принимаете пользовательское соглашение,
