@@ -2,7 +2,6 @@ import style from "./Reference.module.css";
 import BackSvg from "../IconsSvg/BackSvg";
 import ShareSvg from "../IconsSvg/ShareSvg";
 import CommentsSvg from "../IconsSvg/CommentsSvg";
-import FlippedConteinerSvg from "../IconsSvg/FlippedConteinerSvg";
 import BookSvg from "../IconsSvg/BookSvg";
 function Reference() {
   return (
