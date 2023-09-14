@@ -10,6 +10,7 @@ import PhoneSvg from "../IconsSvg/PhoneSvg";
 import MailSvg from "../IconsSvg/MailSvg";
 import License from "../IconsSvg/LicenseSvg";
 import SkSvg from "../IconsSvg/SkSvg";
+import classNames from "classnames";
 function Footer() {
   return (
     <footer className={style.footer}>
@@ -59,12 +60,6 @@ function Footer() {
               <span className={style.license__text}>Участник Skolkovo</span>
             </div>
           </div>
-          <div className={style.requisites__box}>
-            <span className={style.requisites__text}>© ООО “НЕОФЭМИЛИ” </span>
-            <span className={style.requisites__text}>ИНН: 7813660849</span>
-            <span className={style.requisites__text}>КПП: 781301001</span>
-            <span className={style.requisites__text}>ОГРН: 1227800019105</span>
-          </div>
         </article>
         <article>
           <h3 className={style.footer__subtitle}>
@@ -95,6 +90,13 @@ function Footer() {
           </a>
         </article>
       </section>
+      <span className={classNames([style.footer__line, style.footer__line_requisites])}></span>
+      <div className={style.requisites__box}>
+            <span className={style.requisites__text}>© ООО “НЕОФЭМИЛИ” </span>
+            <span className={style.requisites__text}>ИНН: 7813660849</span>
+            <span className={style.requisites__text}>КПП: 781301001</span>
+            <span className={style.requisites__text}>ОГРН: 1227800019105</span>
+          </div>
     </footer>
   );
 }
