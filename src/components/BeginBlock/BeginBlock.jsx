@@ -15,7 +15,7 @@ function BeginBlock() {
         </span>
         <div className={style.buttons__box}>
           <Button mod={"blue"} img={<VkSvg />} text={"Войти через VK ID"} />
-          <Button text={"Войти"} />
+          <Button text={"Войти"} mod={'enter'} />
         </div>
       </article>
       <article>

@@ -1,6 +1,7 @@
 .registration__Box {
   display: flex;
   width: 340px;
+  height: 438px;
   padding: 24px;
   flex-direction: column;
   gap: 24px;

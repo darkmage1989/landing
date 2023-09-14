@@ -1,7 +1,7 @@
 .begin__block {
   display: flex;
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
+  padding-left: calc(50% - 615px);
+  padding-right: calc(50% - 615px);
   gap: 64px;
 }
 .begin__text__box{

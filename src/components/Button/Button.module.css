@@ -1,24 +1,33 @@
 .button {
+  height: 56px;
+  background-color: transparent;
   display: flex;
-  justify-content: space-evenly;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
   gap: 8px;
   border-radius: 160px;
   border: 2px solid #302a3e;
-  padding: 16px 24px;
-  color: #302a3e;
   font-family: Comfortaa;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 150% */
-  background-color: transparent;
+  line-height: 24px; /* 171.429% */
 }
 .blue {
+  padding: 22px 32px;
   background: #2188f6;
-  color: #ffffff;
-  border: 2px solid #2188f6;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+}
+.enter {
+  padding: 22px 32px;
+  font-size: 16px;
 }
 .black {
   background: #302a3e;
   color: #ffffff;
+}
+.footer {
 }

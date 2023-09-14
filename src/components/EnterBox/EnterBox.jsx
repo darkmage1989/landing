@@ -17,15 +17,15 @@ function EnterBox() {
 
       <div className={style.head__enter__cross__box}>
         <span className={style.head__enter__text}>
-          Более 30 000 заданий по всем предметам ЕГЭ. <br /> Бесплатная теория, тесты и
-          умное повторение
+          Более 30 000 заданий по всем предметам ЕГЭ. <br /> Бесплатная теория,
+          тесты и умное повторение
         </span>
         <CrossSvg />
       </div>
 
       <div className={style.head__button__box}>
         <Button mod={"blue"} img={<VkSvg />} text={"Войти через VK ID"} />
-        <Button text={"Войти"} />
+        <Button text={"Войти"} mod={"enter"} />
       </div>
     </article>
   );

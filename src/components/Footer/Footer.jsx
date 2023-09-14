@@ -16,50 +16,43 @@ function Footer() {
       <section className={style.footer_nav__bar}>
         <Logo />
         <div className={style.footer__social__box}>
-          <FooterLink
-            icon={
-              <YouTubeSvg/>
-            }
-          />
-          <FooterLink
-            icon={
-            <VkSvg color={'#302A3E'}/>
-            }
-          />
-          <FooterLink
-            icon={
-              <TgSvg/>
-            }
-          />
+          <FooterLink icon={<YouTubeSvg />} />
+          <FooterLink icon={<VkSvg color={"#302A3E"} />} />
+          <FooterLink icon={<TgSvg />} />
         </div>
-        <Button
-          text={"Наверх"}
-          img={
-           <UpSvg/>
-          }
-        />
+        <div className={style.footer_button_box}>
+          <Button text={"Наверх"} img={<UpSvg />} />
+        </div>
       </section>
+      <span className={style.footer__line}></span>
       <section className={style.footer__info}>
         <article>
           <h3 className={style.footer__subtitle}>Выслушаем и поможем 😉✌</h3>
           <div className={style.contact__box}>
             <div className={style.link__box}>
-              <PhoneSvg/>
-              <a className={style.contact__link} href="+7 (952) 722-87-33"> +7 (952) 722-87-33</a>
+              <PhoneSvg />
+              <a className={style.contact__link} href="+7 (952) 722-87-33">
+                {" "}
+                +7 (952) 722-87-33
+              </a>
             </div>
             <div className={style.link__box}>
-             <MailSvg/>
-              <a className={style.contact__link} href="school@neofamily.ru">school@neofamily.ru</a>
+              <MailSvg />
+              <a className={style.contact__link} href="school@neofamily.ru">
+                school@neofamily.ru
+              </a>
             </div>
           </div>
           <span className={style.footer_address}>
             197101, г. Санкт-Петербург, вн.тер.г. муниципальный округ Посадский,
-            ул. Рентгена, д. 9Б, помещ. 1-Н, офис 9
+            ул. <br /> Рентгена, д. 9Б, помещ. 1-Н, офис 9
           </span>
           <div className={style.license__box}>
             <div className={style.license}>
               <License />
-              <span className={style.license__text}>Государственная лицензия</span>
+              <span className={style.license__text}>
+                Государственная лицензия
+              </span>
             </div>
             <div className={style.license}>
               <SkSvg />
@@ -84,14 +77,22 @@ function Footer() {
             <a href="/#">Тесты</a>
           </div>
           <div className={style.footer__docs__box}>
-            <a className={style.footer__docs__link} href="/#">Политика конфиденциальности</a>
-            <a className={style.footer__docs__link} href="/#">Оферта</a>
-            <a className={style.footer__docs__link} href="/#">Пользовательское соглашение</a>
+            <a className={style.footer__docs__link} href="/#">
+              Политика конфиденциальности
+            </a>
+            <a className={style.footer__docs__link} href="/#">
+              Оферта
+            </a>
+            <a className={style.footer__docs__link} href="/#">
+              Пользовательское соглашение
+            </a>
           </div>
         </article>
         <article>
           <h3 className={style.footer__subtitle}>Проекты</h3>
-          <a className={style.project__link} href="/#">NeoFamily</a>
+          <a className={style.project__link} href="/#">
+            NeoFamily
+          </a>
         </article>
       </section>
     </footer>

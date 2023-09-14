@@ -41,7 +41,7 @@ function KnowledgeBase() {
           />
         </svg>
         <span className={style.knowledge__text__box__bottom}>
-          Выбирай предмет и переходи в Банк заданий прямо сейчас!
+          Выбирай предмет и переходи <br /> в Банк заданий прямо сейчас!
         </span>
       </article>
     </section>

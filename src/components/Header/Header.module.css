@@ -1,17 +1,17 @@
 .header {
   margin-top: 32px;
-  margin-bottom: 96px;
+  margin-bottom: 19px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: calc(50% - 700px);
-  padding-right: calc(50% - 700px);
+  padding-left: calc(50% - 762px);
+  padding-right: calc(50% - 762px);
+  align-items: baseline;
 }
 .header__button__box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: -100px;
 }
 .button__box__text {
   font-size: 14px;
@@ -24,7 +24,7 @@
 .header__nav {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 62px;
 }
 .button__icon {
   width: 24px;
