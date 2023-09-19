@@ -11,7 +11,7 @@
 }
 .head__button__box {
   display: flex;
-  gap: 32px;
+  gap: 16px;
   align-items: flex-end;
 }
 .head__enter__box {
@@ -20,6 +20,7 @@
 }
 .head__cool__box {
   margin-left: -122px;
+  margin-top: -70px;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -49,7 +50,6 @@ align-self: stretch;
   border-radius: 150px;
   background: #fff;
   padding: 12px 16px;
-  gap: 10px;
 }
 .head__enter__cross__box {
   position: relative;

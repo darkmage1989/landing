@@ -1,5 +1,6 @@
+import style from './Icons.module.css'
 function ArrowSvg() {
-    return ( <svg
+    return ( <svg className={style.arrow__svg}
         xmlns="http://www.w3.org/2000/svg"
         width="16"
         height="34"

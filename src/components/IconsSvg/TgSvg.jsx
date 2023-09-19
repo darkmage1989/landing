@@ -10,9 +10,9 @@ function TgSvg() {
       <path
         d="M12.0003 18V25.3333L16.3323 20.964M28.0003 6.66663L2.66699 16.6666L12.0003 18L28.0003 6.66663ZM28.0003 6.66663L24.667 26.6666L12.0003 18L28.0003 6.66663ZM28.0003 6.66663L12.0003 18L28.0003 6.66663Z"
         stroke="#302A3E"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

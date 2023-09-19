@@ -2,7 +2,7 @@ import LogoSvg from "../IconsSvg/LogoSvg";
 
 function Logo() {
   return (
-    <a href="#/">
+    <a style={{height: '44px'}} href="#/">
       <LogoSvg />
     </a>
   );

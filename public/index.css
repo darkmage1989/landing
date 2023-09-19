@@ -14,7 +14,7 @@ a {
 }
 body {
   font-family: "Comfortaa";
-  color: var(--natural-black-100, #302a3e);
+  color: #302a3e;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -25,6 +25,7 @@ body {
     #f9f8fb 46.73%,
     #f2edff 90.89%
   );
+  background-repeat: no-repeat;
  
 }
 input {

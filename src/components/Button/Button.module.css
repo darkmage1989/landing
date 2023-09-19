@@ -1,5 +1,4 @@
 .button {
-  height: 56px;
   background-color: transparent;
   display: flex;
   padding: 16px 24px;
@@ -28,6 +27,4 @@
 .black {
   background: #302a3e;
   color: #ffffff;
-}
-.footer {
 }

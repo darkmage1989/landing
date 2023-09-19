@@ -7,7 +7,7 @@ function License() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g id="license" clip-path="url(#clip0_223_9744)">
+      <g id="license" clipPath="url(#clip0_223_9744)">
         <path id="Vector" d="M0 0H48V61H0V0Z" fill="#536798" />
         <path
           id="Vector_2"
@@ -33,8 +33,8 @@ function License() {
           id="Vector_6"
           d="M12.9746 43.905H35.3996M20.2496 33.3618H27.7496H20.2496ZM14.9996 14.9111H32.9996H14.9996ZM14.9996 27.7136H17.9996H14.9996ZM21.7496 27.7136H32.9996H21.7496ZM12.9746 37.8803H35.3996H12.9746ZM12.9746 40.8926H35.3996H12.9746Z"
           stroke="#727272"
-          stroke-width="0.5"
-          stroke-linecap="square"
+          strokeWidth="0.5"
+          strokeLinecap="square"
         />
         <path
           id="Vector_7"

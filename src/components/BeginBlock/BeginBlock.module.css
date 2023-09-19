@@ -3,9 +3,11 @@
   padding-left: calc(50% - 615px);
   padding-right: calc(50% - 615px);
   gap: 64px;
+  margin-top: 46px;
 }
 .begin__text__box{
     width: 525px;
+    position: relative;
 }
 .begin__title {
   font-size: 56px;
@@ -28,4 +30,20 @@
   display: flex;
   align-items: flex-end;
   gap: 16px;
+}
+.text__rotate {
+  position: absolute;
+  right: 70px;
+  top: 10px;
+  transform: rotate(10deg);
+  color: #000;
+  font-family: Comfortaa;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 100% */
+  text-align: end;
+  border-radius: 150px;
+  background: #fff;
+  padding: 12px 16px;
 }

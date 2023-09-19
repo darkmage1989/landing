@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className={style.header}>
       <nav className={style.header__nav}>
-        <Logo/>
+        <Logo />
         <a className={style.header__link} href="#/">
           Предметы
         </a>
@@ -16,14 +16,11 @@ function Header() {
         <a href="#/">Тесты</a>
       </nav>
       <div className={style.header__button__box}>
-        <Button
-          img={
-           <ConteinerSvg/>
-          }
-          text={"В Банк заданий"}
-        />
-        <ArrowSvg/>
-        <span className={style.button__box__text}>без регистрации</span>
+        <Button img={<ConteinerSvg />} text={"В Банк заданий"} />
+        <div className={style.button__box__text}>
+          <ArrowSvg />
+          <span className={style.header__button__text}>без регистрации</span>
+        </div>
       </div>
     </header>
   );

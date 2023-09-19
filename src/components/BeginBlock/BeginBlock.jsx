@@ -6,7 +6,7 @@ function BeginBlock() {
   return (
     <section className={style.begin__block}>
       <article className={style.begin__text__box}>
-        <span>Дерзай</span>
+        <span className={style.text__rotate}>Дерзай</span>
         <h3 className={style.begin__title}>
           Начни <br /> подготовку <br /> прямо сейчас!
         </h3>
