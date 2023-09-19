@@ -57,11 +57,11 @@
   gap: 95px;
 }
 .footer__subtitle {
+  display: block;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 133.333% */
-  width: 480px;
 }
 .contact__box {
   display: flex;
